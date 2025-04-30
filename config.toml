@@ -1,0 +1,26 @@
+baseURL = "https://deepakbaby.in/"
+languageCode = "en-us"
+title = "Deepak Baby"
+theme = "PaperMod"
+
+[params]
+  author = "Deepak Baby"
+  description = "Academic website of Deepak Baby"
+  ShowReadingTime = true
+  defaultTheme = "auto"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
